@@ -1,0 +1,34 @@
+/* Introduction */
+
+* Unit test is an approach that depends on slicing the software into small testable pieces called (Unit).
+
+* Unit test is written by developers.
+* Unit test is for testing:
+    1- one method
+    2- one class
+    3- one module
+    4- one procedure
+
+* Unit test advantages:
+    1- Quality of code and design
+    2- Find issues and bugs early (time and money)
+    3- Documentation
+
+* Tests types:
+    1- Unit test (Every single testable unit separately)
+    2- Integration test (Test all units after integration with each other)
+    3- End-End test (Final end-user simulation)
+
+* TDD approach:
+    1- Write the test first
+    2- Think about the code functionality to pass the test
+    3- write the code
+    4- test it
+
+* Testing cycle:
+    1- define the testable unit
+    2- give input to the function
+    3- define the expected output
+    4- check for the output (success/failure)
+    5- succeeded ===> DONE 
+    6- failed ===> refactor the unit (fix) and repeat the test
