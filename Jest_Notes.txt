@@ -32,3 +32,22 @@
     4- check for the output (success/failure)
     5- succeeded ===> DONE 
     6- failed ===> refactor the unit (fix) and repeat the test
+
+==============================/*/*/*/=======================================
+
+/* Jest */
+
+* Jest is a javascript library developed by facebook used in testing software units (Best with reactjs)
+
+* npm i -D jest  ====  yarn add --dev jest
+
+
+* Jest global methods:
+    1- Describe (not required) used for organizing the code, can be nested
+    ex:{
+        describe('Name of the block of test',()=>{
+            test('Name of the test',()=>{
+                expected(fun(param)).toBe(expected value)
+            })
+        })
+    }
