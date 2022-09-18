@@ -27,7 +27,7 @@ describe.skip("First test suite", () => {
   });
 });
 
-describe("Test suite two of matchers", () => {
+describe.skip("Test suite two of matchers", () => {
   test("Check undefined", () => {
     let a;
     expect(a).toBeUndefined();
